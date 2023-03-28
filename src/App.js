@@ -7,7 +7,7 @@ export default function Home() {
     <>
       {data &&
         data.map((item) => (
-          <p style={{ color: "Blue" }} key={item.id}>
+          <p style={{ color: "Green" }} key={item.id}>
             {item.title}
           </p>
         ))}
